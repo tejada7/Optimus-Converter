@@ -13,6 +13,8 @@
 		B5748C9A1D0B05AB0013C174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5748C981D0B05AB0013C174 /* Main.storyboard */; };
 		B5748C9C1D0B05AB0013C174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5748C9B1D0B05AB0013C174 /* Assets.xcassets */; };
 		B5748C9F1D0B05AB0013C174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5748C9D1D0B05AB0013C174 /* LaunchScreen.storyboard */; };
+		B5748CA81D0B07FD0013C174 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5748CA71D0B07FD0013C174 /* Converter.m */; };
+		B5748CAA1D0B08870013C174 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = B5748CA91D0B08870013C174 /* head.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B5748C9B1D0B05AB0013C174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5748C9E1D0B05AB0013C174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5748CA01D0B05AB0013C174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5748CA61D0B07FD0013C174 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Converter.h; path = ../Converter.h; sourceTree = "<group>"; };
+		B5748CA71D0B07FD0013C174 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Converter.m; path = ../Converter.m; sourceTree = "<group>"; };
+		B5748CA91D0B08870013C174 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head.png; path = ../../head.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		B5748C8E1D0B05AB0013C174 /* Optimus Converter */ = {
 			isa = PBXGroup;
 			children = (
+				B5748CA91D0B08870013C174 /* head.png */,
+				B5748CA61D0B07FD0013C174 /* Converter.h */,
+				B5748CA71D0B07FD0013C174 /* Converter.m */,
 				B5748C921D0B05AB0013C174 /* AppDelegate.h */,
 				B5748C931D0B05AB0013C174 /* AppDelegate.m */,
 				B5748C951D0B05AB0013C174 /* ViewController.h */,
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5748C9F1D0B05AB0013C174 /* LaunchScreen.storyboard in Resources */,
+				B5748CAA1D0B08870013C174 /* head.png in Resources */,
 				B5748C9C1D0B05AB0013C174 /* Assets.xcassets in Resources */,
 				B5748C9A1D0B05AB0013C174 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			files = (
 				B5748C971D0B05AB0013C174 /* ViewController.m in Sources */,
 				B5748C941D0B05AB0013C174 /* AppDelegate.m in Sources */,
+				B5748CA81D0B07FD0013C174 /* Converter.m in Sources */,
 				B5748C911D0B05AB0013C174 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

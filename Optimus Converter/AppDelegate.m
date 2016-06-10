@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Converter.h"
 
 @interface AppDelegate ()
 

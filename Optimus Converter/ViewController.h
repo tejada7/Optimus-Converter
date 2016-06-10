@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Converter.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
+{
+    Converter *itemConverter;
+}
+@property (weak, nonatomic) IBOutlet UITextField *textFiled;
 
+@property (nonatomic) IBOutlet UIPickerView *picker;
+
+@property NSMutableArray *measureArea;
+@property NSMutableArray *measureTemperature;
+@property NSMutableArray *measureLength;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tab;
+@property (weak, nonatomic) IBOutlet UILabel *outputText;
 
 @end
 
