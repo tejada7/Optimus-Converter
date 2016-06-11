@@ -64,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				B5748CA91D0B08870013C174 /* head.png */,
-				B5748CA61D0B07FD0013C174 /* Converter.h */,
-				B5748CA71D0B07FD0013C174 /* Converter.m */,
 				B5748C921D0B05AB0013C174 /* AppDelegate.h */,
 				B5748C931D0B05AB0013C174 /* AppDelegate.m */,
 				B5748C951D0B05AB0013C174 /* ViewController.h */,
@@ -74,6 +72,8 @@
 				B5748C9B1D0B05AB0013C174 /* Assets.xcassets */,
 				B5748C9D1D0B05AB0013C174 /* LaunchScreen.storyboard */,
 				B5748CA01D0B05AB0013C174 /* Info.plist */,
+				B5748CA61D0B07FD0013C174 /* Converter.h */,
+				B5748CA71D0B07FD0013C174 /* Converter.m */,
 				B5748C8F1D0B05AB0013C174 /* Supporting Files */,
 			);
 			path = "Optimus Converter";

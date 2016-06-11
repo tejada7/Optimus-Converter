@@ -19,23 +19,23 @@
         switch (fromIndex) {
             case 0: // From square kilometers
                 if(toIndex == 1) { // To meters
-                    value *= 1000;
+                    value *= 1000000;
                 } else if (toIndex == 2) { // To square foot
-                    value *= 3280;
+                    value *= 10763910.42;
                 }
                 break;
             case 1: // From square meters
                 if(toIndex == 0) { // To square kilometers
-                    value /= 1000;
+                    value /= 1000000;
                 } else if (toIndex == 2) { // To square food
-                    value *= 3.28;
+                    value *= 10.7639;
                 }
                 break;
             case 2: // From square foot
                 if(toIndex == 0) { // To square kilometer
-                    value /= 3280;
+                    value /= 10763910.42;
                 } else if (toIndex == 1) { // To square meter
-                    value /= 3.28;
+                    value *= 0.092903;
                 }
                 break;
         }

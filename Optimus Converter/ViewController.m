@@ -100,7 +100,7 @@
         _outputText.text = @"Please insert only numbers"; // Print the error into the label
     } else {
         _outputText.textColor = [UIColor blackColor];
-        _outputText.text = [NSString stringWithFormat:@"%.03f", result]; // Set the value into the label
+        _outputText.text = [NSString stringWithFormat:@"%.06f", result]; // Set the value into the label
     }
 }
 
